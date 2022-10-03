@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+img{
+    width: 300px;
+    height: 456px;
+    margin: 0 0 0 auto;
+    padding: 30px 55px;
+}
+.maincont{
+    display: flex;
+}
+.footer{
+    background-color: rgb(60, 60, 75);
+
+}
+#pp{
+    color: white !important;
+    font-size: 12px;
+    text-align: center;
+    padding: 35px !important;
+}
+a{
+    color: rgb(102, 164, 164);
+}
+a:hover{
+    color: gray;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.maincont{
+    display: block;
+    width: auto;
+    text-align: center;
+}
+p{
+    font-family: 'Roboto Serif', serif !important;
+    color: #b3b3b3 !important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    line-height: 2;
+    padding: 130px 80px 0px 80px;
+    
+}
+h5{
+    font-family: 'Roboto Sherif', serif;
+    font-size: 4.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 100px;
+    
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .maincont{
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+    p{
+        font-family: 'Roboto Serif', serif !important;
+        color: #b3b3b3 !important;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        box-sizing: border-box;
+        line-height: 2;
+        padding: 60px;
+    }
+    h5{
+        font-family: 'Roboto Sherif', serif;
+        font-size: 4.5rem;
+        font-weight: lighter;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding: 100px;
+        
+    }
+    #pcs{
+        text-align: right !important;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .maincont{
+        display: flex;
+    }
+    p{
+        font-family: 'Roboto Serif', serif !important;
+        color: #b3b3b3 !important;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        box-sizing: border-box;
+        line-height: 2;
+        padding: 60px;
+    }
+    h5{
+        font-family: 'Roboto Sherif', serif;
+        font-size: 4.5rem;
+        font-weight: lighter;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding: 100px;
+        
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .maincont{
+        text-align: center;
+        justify-content: center;
+    }
+   
+#paragraf{
+    text-align: justify;
+    max-width: 700px;
+}
+#pcs{
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
